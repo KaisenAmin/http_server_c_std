@@ -187,11 +187,11 @@ string/clean: string/CMakeFiles/stdstring.dir/clean
 # Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all: fmt/CMakeFiles/fmt.dir/all
 CMakeFiles/main.dir/all: string/CMakeFiles/stdstring.dir/all
-CMakeFiles/main.dir/all: crypto/CMakeFiles/stdcrypto.dir/all
-CMakeFiles/main.dir/all: network/CMakeFiles/network.dir/all
+CMakeFiles/main.dir/all: fmt/CMakeFiles/fmt.dir/all
 CMakeFiles/main.dir/all: encoding/CMakeFiles/encoding.dir/all
+CMakeFiles/main.dir/all: network/CMakeFiles/network.dir/all
+CMakeFiles/main.dir/all: crypto/CMakeFiles/stdcrypto.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/asus/OneDrive/Desktop/project/http_server_c_std/build/CMakeFiles --progress-num=8,9 "Built target main"
@@ -348,8 +348,8 @@ encoding/CMakeFiles/encoding.dir/clean:
 # Target rules for target file_io/CMakeFiles/fileio.dir
 
 # All Build rule for target.
-file_io/CMakeFiles/fileio.dir/all: fmt/CMakeFiles/fmt.dir/all
 file_io/CMakeFiles/fileio.dir/all: string/CMakeFiles/stdstring.dir/all
+file_io/CMakeFiles/fileio.dir/all: fmt/CMakeFiles/fmt.dir/all
 file_io/CMakeFiles/fileio.dir/all: encoding/CMakeFiles/encoding.dir/all
 	$(MAKE) $(MAKESILENT) -f file_io/CMakeFiles/fileio.dir/build.make file_io/CMakeFiles/fileio.dir/depend
 	$(MAKE) $(MAKESILENT) -f file_io/CMakeFiles/fileio.dir/build.make file_io/CMakeFiles/fileio.dir/build
@@ -376,10 +376,10 @@ file_io/CMakeFiles/fileio.dir/clean:
 # Target rules for target network/CMakeFiles/network.dir
 
 # All Build rule for target.
-network/CMakeFiles/network.dir/all: fmt/CMakeFiles/fmt.dir/all
 network/CMakeFiles/network.dir/all: string/CMakeFiles/stdstring.dir/all
-network/CMakeFiles/network.dir/all: crypto/CMakeFiles/stdcrypto.dir/all
+network/CMakeFiles/network.dir/all: fmt/CMakeFiles/fmt.dir/all
 network/CMakeFiles/network.dir/all: encoding/CMakeFiles/encoding.dir/all
+network/CMakeFiles/network.dir/all: crypto/CMakeFiles/stdcrypto.dir/all
 	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/network.dir/build.make network/CMakeFiles/network.dir/depend
 	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/network.dir/build.make network/CMakeFiles/network.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/asus/OneDrive/Desktop/project/http_server_c_std/build/CMakeFiles --progress-num=10,11,12 "Built target network"

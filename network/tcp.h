@@ -22,6 +22,7 @@
     #include <netinet/tcp.h> // For TCP_INFO on Linux
     #include <unistd.h>
     #include <netdb.h>
+    #include <fcntl.h>
     typedef int TcpSocket;
 #endif
 
